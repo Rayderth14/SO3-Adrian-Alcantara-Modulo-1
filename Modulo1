@@ -1,0 +1,26 @@
+Comandos usados practica 2 
+nmtui: Herramienta en modo gráfico de terminal para gestionar conexiones de red
+nmcli dev show | grep DNS:Muestra los DNS configurados actualmente en el sistema filtrando solo la parte de DNS.
+sudo nmcli connection down: Desactiva una conexión de red específica
+sudo nmcli connection up:Activa una conexión de red específica.
+sudo nmcli connection modify:Modifica la configuración de una conexión de red
+ip address show:Muestra todas las direcciones IP configuradas en las interfaces de red del sistema.
+
+
+Comandos usados practica 3
+sudo adduser:Crea un nuevo usuario en el sistema.
+sudo usermod -aG wheel:Añade un usuario al grupo wheel (grupo de administradores con permisos sudo).
+sudo groupdd: Crea un nuevo grupo en el sistema                                                          
+sudo usermod -aG:Añade un usuario a un grupo específico.
+sudo gpasswd -d:Elimina a un usuario de un grupo.
+sudo userdel -r:Elimina un usuario y su directorio personal.
+sudo groupdel guest:Elimina un grupo del sistema.
+
+Comandos usados practica 3
+sudo adduser:Crea un nuevo usuario en el sistema.
+sudo usermod -aG wheel:Añade un usuario al grupo wheel (grupo de administradores con permisos sudo).
+sudo groupdd: Crea un nuevo grupo en el sistema                                                          
+sudo usermod -aG:Añade un usuario a un grupo específico.
+sudo gpasswd -d:Elimina a un usuario de un grupo.
+sudo userdel -r:Elimina un usuario y su directorio personal.
+sudo groupdel guest:Elimina un grupo del sistema.
